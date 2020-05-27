@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "typescript-angular-curso": {
+      "hosting": {
+        "Angular-typescript": [
+          "typescript-angular-curso"
+        ]
+      }
+    }
+  }
+}

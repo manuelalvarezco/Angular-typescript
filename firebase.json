@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "Angular-typescript",
+      "public": "dist/Angular-typescript",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
